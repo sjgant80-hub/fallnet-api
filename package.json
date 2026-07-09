@@ -1,0 +1,29 @@
+{
+  "name": "@ai-native-solutions/fallnet-api",
+  "version": "1.0.0",
+  "description": "HTTP API wrapper for fallnet · sovereign peer-to-peer mesh · express",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "fallnet-api": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "files": ["server.js", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "keywords": ["fallnet", "webrtc", "p2p", "mesh", "http", "api", "express"],
+  "author": "AI Native Solutions",
+  "license": "MIT",
+  "homepage": "https://github.com/sjgant80-hub/fallnet-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjgant80-hub/fallnet-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@ai-native-solutions/fallnet-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
