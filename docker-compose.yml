@@ -1,10 +1,8 @@
 services:
   fallnet-api:
     build: .
-    image: fallnet-api:1.0.0
-    container_name: fallnet-api
     ports:
-      - "8080:8080"
+      - "3000:3000"
     environment:
-      - PORT=8080
+      PORT: "3000"
     restart: unless-stopped
